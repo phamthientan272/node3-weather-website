@@ -5,7 +5,7 @@ const geocode = require('./utils/geocode')
 const forecast = require('./utils/forecast')
 
 const app = express()
-
+console.log("Hello")
 // Define paths for Express config
 const publicDirectory = path.join(__dirname,'../public')
 const viewsPath = path.join(__dirname,'../templates/views')
